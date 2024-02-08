@@ -1,0 +1,34 @@
+@import 'vendors/reset.scss';
+
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+.element {
+    background: lightgrey;
+}
+.element--otherNonMetal {
+  background: lightcoral;
+}
+.element--nobleGas {
+  background: lightgreen;
+}
+.element--alkaliMetal {
+  background: gold;
+}
+
+/* $nonMetal: ;
+@each $___ in $____ {
+  div {
+    background: lightgrey;
+  }
+} */
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
